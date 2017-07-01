@@ -1703,7 +1703,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #75ff73;
+  background: #8a9e03;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2549,6 +2549,9 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.post-comments-count a::before {
+  content: "评论";
 }
 .post {
   margin-top: 60px;
