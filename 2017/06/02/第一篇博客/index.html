@@ -94,7 +94,7 @@
 <meta property="og:url" content="zzt96.github.io/2017/06/02/第一篇博客/index.html">
 <meta property="og:site_name" content="润明有山">
 <meta property="og:description" content="博客新开记于2017年6月2日小生才浅今后分享的知识如有不确请多加指正">
-<meta property="og:updated_time" content="2017-07-03T03:12:35.686Z">
+<meta property="og:updated_time" content="2017-07-03T03:30:10.299Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第一篇博客">
 <meta name="twitter:description" content="博客新开记于2017年6月2日小生才浅今后分享的知识如有不确请多加指正">
@@ -391,7 +391,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  445字
+                  842字
                 </span>
               
 
@@ -407,7 +407,7 @@
                   <span class="post-meta-item-text">阅读时长</span>
                 
                 <span title="阅读时长">
-                  2min
+                  3min
                 </span>
               
             </div>
@@ -442,7 +442,18 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># Automatically Excerpt. Not recommend.</div><div class="line"># Please use &lt;!-- more --&gt; in the post to control excerpt accurately.</div><div class="line">auto_excerpt:</div><div class="line">  enable: false</div><div class="line">  length: 150</div></pre></td></tr></table></figure>
 <p>把 enable 的 false 改成 true 就行了，然后 length 是设定文章预览的文本长度。</p>
 <p>修改后重启 hexo 就ok了。</p>
-<h3 id="第二种方法"><a href="#第二种方法" class="headerlink" title="第二种方法"></a>第二种方法</h3><p>在你写 md 文章的时候，可以在内容中加上 <!--more-->，这样首页和列表页展示的文章内容就是 <!--more--> 之前的文字，而之后的就不会显示了。</p>
+<h3 id="第二种方法"><a href="#第二种方法" class="headerlink" title="第二种方法"></a>第二种方法</h3><p>在你写 md 文章的时候，可以在内容中加上 <span id="inline-blue"> &lt;!-- more--&gt; </span>，这样首页和列表页展示的文章内容就是 <span id="inline-blue"> &lt;!-- more--&gt; </span> 之前的文字，而之后的就不会显示了。</p>
+<hr>
+<h2 id="文章特效"><a href="#文章特效" class="headerlink" title="文章特效"></a>文章特效</h2><h3 id="给文字增加背景色块"><a href="#给文字增加背景色块" class="headerlink" title="给文字增加背景色块"></a>给文字增加背景色块</h3><p><span id="inline-blue">站点配置文件</span><br><span id="inline-purple">主题配置文件</span><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;span id=&quot;inline-blue&quot;&gt;站点配置文件&lt;/span&gt;， </div><div class="line">&lt;span id=&quot;inline-purple&quot;&gt;主题配置文件&lt;/span&gt;</div></pre></td></tr></table></figure></p>
+<h3 id="引用边框变色"><a href="#引用边框变色" class="headerlink" title="引用边框变色"></a>引用边框变色</h3><p></p><p id="div-border-left-red">如果没有安装成功，那可能就是墙的原因。建议下载 <code>Node.js</code> 直接安装。</p><p></p>
+<p></p><p id="div-border-top-blue">关于更多基本操作和基础知识，请查阅 <a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a> 与 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT</a> 官方文档.</p><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;p id=&quot;div-border-left-red&quot;&gt;如果没有安装成功，那可能就是墙的原因。建议下载 `Node.js` 直接安装。&lt;/p&gt;</div><div class="line">&lt;p id=&quot;div-border-top-blue&quot;&gt;关于更多基本操作和基础知识，请查阅 [Hexo](https://hexo.io/zh-cn/) 与 [NexT](http://theme-next.iissnan.com/) 官方文档.&lt;/p&gt;</div></pre></td></tr></table></figure><p></p>
+<h3 id="在文档中增加图标"><a href="#在文档中增加图标" class="headerlink" title="在文档中增加图标"></a>在文档中增加图标</h3><ul>
+<li><i class="fa fa-pencil"></i>支持Markdown<br><i>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</i></li>
+<li><i class="fa fa-cloud-upload"></i>一件部署<br><i>只需一条指令即可部署到Github Pages，或其他网站</i></li>
+<li><i class="fa fa-cog"></i>丰富的插件<br><i>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</i><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">- &lt;i class=&quot;fa fa-pencil&quot;&gt;&lt;/i&gt;支持Markdown</div><div class="line">&lt;i&gt;Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。&lt;/i&gt;</div><div class="line">- &lt;i class=&quot;fa fa-cloud-upload&quot;&gt;&lt;/i&gt;一件部署</div><div class="line">&lt;i&gt;只需一条指令即可部署到Github Pages，或其他网站&lt;/i&gt;</div><div class="line">- &lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;丰富的插件</div><div class="line">&lt;i&gt;Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。&lt;/i&gt;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="图形边框效果"><a href="#图形边框效果" class="headerlink" title="图形边框效果"></a>图形边框效果</h3><p><a id="download" href="https://git-scm.com/download/win" target="_blank" rel="external"><i class="fa fa-download"></i><span> Download Now</span><br></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;a id=&quot;download&quot; href=&quot;https://git-scm.com/download/win&quot;&gt;&lt;i class=&quot;fa fa-download&quot;&gt;&lt;/i&gt;&lt;span&gt; Download Now&lt;/span&gt;</div><div class="line">&lt;/a&gt;</div></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -509,8 +520,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/06/02/Apriori算法-1/" rel="prev" title="Apriori算法">
-                Apriori算法 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/06/28/杨鹏17天搞定GRE单词/" rel="prev" title="17天搞定GRE单词（杨鹏）笔记">
+                17天搞定GRE单词（杨鹏）笔记 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -585,7 +596,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -596,7 +607,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -661,7 +672,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#博客新开"><span class="nav-number">1.</span> <span class="nav-text">博客新开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo-github基本管理操作"><span class="nav-number">2.</span> <span class="nav-text">hexo+github基本管理操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#写博客或添加页面"><span class="nav-number">2.1.</span> <span class="nav-text">写博客或添加页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用简写"><span class="nav-number">2.2.</span> <span class="nav-text">常用简写</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用组合"><span class="nav-number">2.3.</span> <span class="nav-text">常用组合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更改端口本地运行"><span class="nav-number">2.4.</span> <span class="nav-text">更改端口本地运行</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何设置展开全文"><span class="nav-number">3.</span> <span class="nav-text">如何设置展开全文　　</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#目标"><span class="nav-number">3.1.</span> <span class="nav-text">目标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决"><span class="nav-number">3.2.</span> <span class="nav-text">解决</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一种方法"><span class="nav-number">3.3.</span> <span class="nav-text">第一种方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二种方法"><span class="nav-number">3.4.</span> <span class="nav-text">第二种方法</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#博客新开"><span class="nav-number">1.</span> <span class="nav-text">博客新开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo-github基本管理操作"><span class="nav-number">2.</span> <span class="nav-text">hexo+github基本管理操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#写博客或添加页面"><span class="nav-number">2.1.</span> <span class="nav-text">写博客或添加页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用简写"><span class="nav-number">2.2.</span> <span class="nav-text">常用简写</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用组合"><span class="nav-number">2.3.</span> <span class="nav-text">常用组合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#更改端口本地运行"><span class="nav-number">2.4.</span> <span class="nav-text">更改端口本地运行</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何设置展开全文"><span class="nav-number">3.</span> <span class="nav-text">如何设置展开全文　　</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#目标"><span class="nav-number">3.1.</span> <span class="nav-text">目标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决"><span class="nav-number">3.2.</span> <span class="nav-text">解决</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一种方法"><span class="nav-number">3.3.</span> <span class="nav-text">第一种方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二种方法"><span class="nav-number">3.4.</span> <span class="nav-text">第二种方法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章特效"><span class="nav-number">4.</span> <span class="nav-text">文章特效</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#给文字增加背景色块"><span class="nav-number">4.1.</span> <span class="nav-text">给文字增加背景色块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用边框变色"><span class="nav-number">4.2.</span> <span class="nav-text">引用边框变色</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在文档中增加图标"><span class="nav-number">4.3.</span> <span class="nav-text">在文档中增加图标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图形边框效果"><span class="nav-number">4.4.</span> <span class="nav-text">图形边框效果</span></a></li></ol></li></ol></div>
             
 
           </div>

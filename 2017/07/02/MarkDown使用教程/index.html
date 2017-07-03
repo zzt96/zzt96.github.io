@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="coding,markdown," />
 
 
 
@@ -87,13 +87,17 @@
 
 
 
+<meta name="description" content="本文转载自Markdown 编辑器语法指南：https://segmentfault.com/markdown推荐使用：有道云笔记的markdown编辑器编写完毕后将其转换到blog上。   如果你只想高亮语句中的某个函数名或关键字，可以使用 function_name() 实现 通常编辑器根据代码片段适配合适的高亮方法，但你也可以用 12345```javascript$(document).r">
+<meta name="keywords" content="coding,markdown">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MarkDown使用教程">
 <meta property="og:url" content="zzt96.github.io/2017/07/02/MarkDown使用教程/index.html">
 <meta property="og:site_name" content="润明有山">
-<meta property="og:updated_time" content="2017-07-02T08:59:54.840Z">
+<meta property="og:description" content="本文转载自Markdown 编辑器语法指南：https://segmentfault.com/markdown推荐使用：有道云笔记的markdown编辑器编写完毕后将其转换到blog上。   如果你只想高亮语句中的某个函数名或关键字，可以使用 function_name() 实现 通常编辑器根据代码片段适配合适的高亮方法，但你也可以用 12345```javascript$(document).r">
+<meta property="og:updated_time" content="2017-07-03T03:39:35.441Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MarkDown使用教程">
+<meta name="twitter:description" content="本文转载自Markdown 编辑器语法指南：https://segmentfault.com/markdown推荐使用：有道云笔记的markdown编辑器编写完毕后将其转换到blog上。   如果你只想高亮语句中的某个函数名或关键字，可以使用 function_name() 实现 通常编辑器根据代码片段适配合适的高亮方法，但你也可以用 12345```javascript$(document).r">
 
 
 
@@ -365,7 +369,7 @@
                   <span class="post-meta-item-text">字数统计</span>
                 
                 <span title="字数统计">
-                  0字
+                  1,468字
                 </span>
               
 
@@ -381,7 +385,7 @@
                   <span class="post-meta-item-text">阅读时长</span>
                 
                 <span title="阅读时长">
-                  1min
+                  6min
                 </span>
               
             </div>
@@ -400,7 +404,120 @@
       
 
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本文转载自<a href="https://segmentfault.com/markdown" target="_blank" rel="external">Markdown 编辑器语法指南</a>：<a href="https://segmentfault.com/markdown" target="_blank" rel="external">https://segmentfault.com/markdown</a><br>推荐使用：<br><strong>有道云笔记的markdown编辑器编写完毕后将其转换到blog上。</strong>  </p>
+<p>如果你只想高亮语句中的某个函数名或关键字，可以使用 <code>function_name()</code> 实现</p>
+<p>通常编辑器根据代码片段适配合适的高亮方法，但你也可以用 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">```javascript</div><div class="line">$(document).ready(function () &#123;</div><div class="line">    alert(&apos;hello world&apos;);</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<p><code>支持的语言：1c, abnf, accesslog, actionscript, ada, apache, applescript, arduino, armasm, asciidoc, aspectj, autohotkey, autoit, avrasm, awk, axapta, bash, basic, bnf, brainfuck, cal, capnproto, ceylon, clean, clojure, clojure-repl, cmake, coffeescript, coq, cos, cpp, crmsh, crystal, cs, csp, css, d, dart, delphi, diff, django, dns, dockerfile, dos, dsconfig, dts, dust, ebnf, elixir, elm, erb, erlang, erlang-repl, excel, fix, flix, fortran, fsharp, gams, gauss, gcode, gherkin, glsl, go, golo, gradle, groovy, haml, handlebars, haskell, haxe, hsp, htmlbars, http, hy, inform7, ini, irpf90, java, javascript, json, julia, kotlin, lasso, ldif, leaf, less, lisp, livecodeserver, livescript, llvm, lsl, lua, makefile, markdown, mathematica, matlab, maxima, mel, mercury, mipsasm, mizar, mojolicious, monkey, moonscript, n1ql, nginx, nimrod, nix, nsis, objectivec, ocaml, openscad, oxygene, parser3, perl, pf, php, pony, powershell, processing, profile, prolog, protobuf, puppet, purebasic, python, q, qml, r, rib, roboconf, rsl, ruby, ruleslanguage, rust, scala, scheme, scilab, scss, smali, smalltalk, sml, sqf, sql, stan, stata, step21, stylus, subunit, swift, taggerscript, tap, tcl, tex, thrift, tp, twig, typescript, vala, vbnet, vbscript, vbscript-html, verilog, vhdl, vim, x86asm, xl, xml, xquery, yaml, zephir</code></p>
+<p>也可以使用 4 空格缩进，再贴上代码，实现相同的的效果</p>
+<pre><code>def g(x):
+    yield from range(x, 0, -1)
+yield from range(x)
+</code></pre><hr>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>文章内容较多时，可以用标题分段：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">标题1</div><div class="line">======</div><div class="line"></div><div class="line">标题2</div><div class="line">-----</div><div class="line"></div><div class="line">## 大标题 ##</div><div class="line">### 小标题 ###</div><div class="line">粗斜体</div><div class="line"></div><div class="line">*斜体文本*    _斜体文本_</div><div class="line">**粗体文本**    __粗体文本__</div><div class="line">***粗斜体文本***    ___粗斜体文本___</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="常用链接方法"><a href="#常用链接方法" class="headerlink" title="常用链接方法"></a>常用链接方法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">文字链接 [链接名称](http://链接网址)</div><div class="line">网址链接 &lt;http://链接网址&gt;</div><div class="line">高级链接技巧</div></pre></td></tr></table></figure>
+<p>这个链接用 1 作为网址变量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[Google][1].</div></pre></td></tr></table></figure></p>
+<p>这个链接用 yahoo 作为网址变量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[Yahoo!][yahoo].</div></pre></td></tr></table></figure></p>
+<p>然后在文档的结尾为变量赋值（网址）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[1]: http://www.google.com/</div><div class="line">  [yahoo]: http://www.yahoo.com/</div></pre></td></tr></table></figure>
+<p>效果：<br><a href="http://www.baidu.com/" target="_blank" rel="external">baidu</a></p>
+<p><a href="http://www.yahoo.com/" target="_blank" rel="external">Yahoo!</a></p>
+<hr>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="普通无序列表"><a href="#普通无序列表" class="headerlink" title="普通无序列表"></a>普通无序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- 列表文本前使用 [减号+空格]</div><div class="line">+ 列表文本前使用 [加号+空格]</div><div class="line">* 列表文本前使用 [星号+空格]</div></pre></td></tr></table></figure>
+<h3 id="普通有序列表"><a href="#普通有序列表" class="headerlink" title="普通有序列表"></a>普通有序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. 列表前使用 [数字+空格]</div><div class="line">2. 我们会自动帮你添加数字</div><div class="line">7. 不用担心数字不对，显示的时候我们会自动把这行的 7 纠正为 3</div></pre></td></tr></table></figure>
+<h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><ol>
+<li>列出所有元素：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- 无序列表元素 A</div><div class="line">        1. 元素 A 的有序子列表</div><div class="line">    - 前面加四个空格</div></pre></td></tr></table></figure>
+<blockquote>
+<p>效果：</p>
+<ul>
+<li>无序列表元素 A  <pre><code>1. 元素 A 的有序子列表
+</code></pre><ul>
+<li>前面加四个空格</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<ol>
+<li>列表里的多段换行：<br> 前面必须加四个空格，<br> 这样换行，整体的格式不会乱</li>
+<li><p>列表里引用：</p>
+<blockquote>
+<p>前面空一行<br>仍然需要在 &gt;  前面加四个空格</p>
+</blockquote>
+</li>
+<li><p>列表里代码段：</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">前面四个空格，之后按代码语法 ``` 书写</div></pre></td></tr></table></figure>
+<pre><code>或者直接空八个，引入代码块
+</code></pre></li>
+</ol>
+<hr>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><h3 id="普通引用"><a href="#普通引用" class="headerlink" title="普通引用"></a>普通引用</h3><blockquote>
+<p>引用文本前使用 [大于号+空格]<br>折行可以不加，新起一行都要加上哦</p>
+</blockquote>
+<h3 id="引用里嵌套引用"><a href="#引用里嵌套引用" class="headerlink" title="引用里嵌套引用"></a>引用里嵌套引用</h3><blockquote>
+<p>最外层引用</p>
+<blockquote>
+<p>多一个 &gt; 嵌套一层引用</p>
+<blockquote>
+<p>可以嵌套很多层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="引用里嵌套列表"><a href="#引用里嵌套列表" class="headerlink" title="引用里嵌套列表"></a>引用里嵌套列表</h3><blockquote>
+<ul>
+<li>这是引用里嵌套的一个列表</li>
+<li>还可以有子列表<ul>
+<li>子列表需要从 - 之后延后四个空格开始</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h3 id="引用里嵌套代码块"><a href="#引用里嵌套代码块" class="headerlink" title="引用里嵌套代码块"></a>引用里嵌套代码块</h3><blockquote>
+<pre><code>同样的，在前面加四个空格形成代码块
+</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">或者使用 ``` 形成代码块</div></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">document.write(&quot;&lt;h1&gt;This is a heading&lt;/h1&gt;&quot;);</div><div class="line">document.write(&quot;&lt;p&gt;This is a paragraph&lt;/p&gt;&quot;);</div></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>跟链接的方法区别在于前面加了个感叹号 !，这样是不是觉得好记多了呢？</p>
+<p>格式为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![图片名称](http://图片网址)</div></pre></td></tr></table></figure>
+<p>当然，你也可以像网址那样对图片网址使用变量</p>
+<p>这个链接用 1 作为网址变量 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[Google][1]</div></pre></td></tr></table></figure>
+<p>然后在文档的结尾位变量赋值（网址）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[1]: http://www.google.com/logo.png</div></pre></td></tr></table></figure>
+<p>也可以使用 HTML 的图片语法来自定义图片的宽高大小</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;htt://example.com/sample.png&quot; width=&quot;400&quot; height=&quot;100&quot;&gt;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h2><p>如果另起一行，只需在当前行结尾加 2 个空格</p>
+<p>在当前行的结尾加 2 个空格<br>这行就会新起一行<br>如果是要起一个新段落，只需要空出一行即可。</p>
+<hr>
+<h2 id="分隔符"><a href="#分隔符" class="headerlink" title="分隔符"></a>分隔符</h2><p>如果你有写分割线的习惯，可以新起一行输入三个减号-。当前后都有段落时，请空出一行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">前面的段落</div><div class="line"></div><div class="line">---</div><div class="line"></div><div class="line">后面的段落</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="高级技巧"><a href="#高级技巧" class="headerlink" title="高级技巧"></a>高级技巧</h2><p><strong><em>行内 HTML 元素</em></strong></p>
+<p>目前只支持部分段内 HTML 元素效果，包括 <kdb> <b> <i> <em> <sup> <sub> <br> ，如</sub></sup></em></i></b></kdb></p>
+<p>键位显示</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>使用 <pre></pre> 元素同样可以形成代码块</p>
+<h2 id="粗斜体"><a href="#粗斜体" class="headerlink" title="粗斜体"></a>粗斜体</h2><p><b> Markdown 在此处同样适用，如 <em>加粗</em> </b></p>
+<hr>
+<h2 id="符号转义"><a href="#符号转义" class="headerlink" title="符号转义"></a>符号转义</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">如果你的描述中需要用到 markdown 的符号，比如 _ # *   等，但又不想它被转义，这时候可以在这些符号前加反斜杠，如 \_ \# \* 进行避免。</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">\_不想这里的文本变斜体\_</div><div class="line">\*\*不想这里的文本被加粗\*\*</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><p>支持 jsfiddle、gist、runjs、优酷视频，直接填写 url，在其之后会自动添加预览点击会展开相关内容。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">http://&#123;url_of_the_fiddle&#125;/embedded/[&#123;tabs&#125;/[&#123;style&#125;]]/</div><div class="line">https://gist.github.com/&#123;gist_id&#125;</div><div class="line">http://runjs.cn/detail/&#123;id&#125;</div><div class="line">http://v.youku.com/v_show/id_&#123;video_id&#125;.html</div></pre></td></tr></table></figure>
+<p>如：<br><a href="http://v.youku.com/v_show/id_{video_id}.html" target="_blank" rel="external">http://v.youku.com/v_show/id_{video_id}.html</a></p>
+<hr>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$$ x = &#123;-b \pm \sqrt&#123;b^2-4ac&#125; \over 2a&#125;. $$</div><div class="line"></div><div class="line">$$</div><div class="line">x \href&#123;why-equal.html&#125;&#123;=&#125; y^2 + 1</div><div class="line">$$</div></pre></td></tr></table></figure>
+<p>同时也支持 HTML 属性，如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$$ (x+1)^2 = \class&#123;hidden&#125;&#123;(x+1)(x+1)&#125; $$</div><div class="line"></div><div class="line">$$</div><div class="line">(x+1)^2 = \cssId&#123;step1&#125;&#123;\style&#123;visibility:hidden&#125;&#123;(x+1)(x+1)&#125;&#125;</div><div class="line">$$</div></pre></td></tr></table></figure>
+
       
     </div>
 
@@ -444,6 +561,14 @@
   
 	</div>
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/coding/" rel="tag"># coding</a>
+          
+            <a href="/tags/markdown/" rel="tag"># markdown</a>
+          
+        </div>
       
 
       
@@ -511,8 +636,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -527,7 +661,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -538,7 +672,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -593,6 +727,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接"><span class="nav-number">2.</span> <span class="nav-text">链接</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#常用链接方法"><span class="nav-number">2.1.</span> <span class="nav-text">常用链接方法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列表"><span class="nav-number">3.</span> <span class="nav-text">列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#普通无序列表"><span class="nav-number">3.1.</span> <span class="nav-text">普通无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#普通有序列表"><span class="nav-number">3.2.</span> <span class="nav-text">普通有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#列表嵌套"><span class="nav-number">3.3.</span> <span class="nav-text">列表嵌套</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引用"><span class="nav-number">4.</span> <span class="nav-text">引用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#普通引用"><span class="nav-number">4.1.</span> <span class="nav-text">普通引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用里嵌套引用"><span class="nav-number">4.2.</span> <span class="nav-text">引用里嵌套引用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用里嵌套列表"><span class="nav-number">4.3.</span> <span class="nav-text">引用里嵌套列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用里嵌套代码块"><span class="nav-number">4.4.</span> <span class="nav-text">引用里嵌套代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实例"><span class="nav-number">4.5.</span> <span class="nav-text">实例</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图片"><span class="nav-number">5.</span> <span class="nav-text">图片</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#换行"><span class="nav-number">6.</span> <span class="nav-text">换行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分隔符"><span class="nav-number">7.</span> <span class="nav-text">分隔符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#高级技巧"><span class="nav-number">8.</span> <span class="nav-text">高级技巧</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码块"><span class="nav-number">9.</span> <span class="nav-text">代码块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#粗斜体"><span class="nav-number">10.</span> <span class="nav-text">粗斜体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#符号转义"><span class="nav-number">11.</span> <span class="nav-text">符号转义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#扩展"><span class="nav-number">12.</span> <span class="nav-text">扩展</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#公式"><span class="nav-number">13.</span> <span class="nav-text">公式</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
